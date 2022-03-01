@@ -71,7 +71,7 @@ a {
 
 .intro {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 40px;
 }
 
@@ -84,7 +84,7 @@ a {
 }
 
 .form-title {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -93,6 +93,12 @@ label {
     font-size: 12px;
     letter-spacing: 1px;
     color: #323232;
+    margin-bottom: 3px;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 5px;
 }
 
 .form-proper {
