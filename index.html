@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabs Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONTS ROBOTO SLAB -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <!-- <div class="logo"> -->
+               <img class="logo" src="cabs-white-logo.png" alt="Cabs' Pitikraphy Logo">
+            <!-- </div> -->
+        </div>
+        <div class="sidebar-footer">
+            Photo by <a href="https://unsplash.com/@opticonor">Conor Luddy</a> on <a href="https://unsplash.com/">Unsplash</a>.
+        </div>
+    </div>
+    <div class="body">
+        <div class="intro">
+            
+            Thank you for deciding to sign-up for my make-believe <i>Photography</i> website. 
+            <br><br>
+            3 ...  2 ... 1 ... Say cheese!
+        </div>
+        <form action="/index.html" method="post">
+            <div class="form-main">
+                <div class="form-title">
+                    Let's Shoooooot!
+                </div>
+                <div class="form-proper">
+                    <div class="form-item firstname">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" id=firstname>
+                    </div>
+                    <div class="form-item lastname">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" id="lastname">
+                    </div>
+                    <div class="form-item email">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-item phonenumber">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="text" id="phonenumber">
+                    </div>
+                    <div class="form-item password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="form-item password-confirm">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                    <input type="text" id="password-confirm">
+                    </div>
+                </div>
+            </div>        
+            <button class="button" type="submit">Create Account</button>
+        </form>
+        <div class="log-in-option">
+            Already have an account? <a class="log-in" href="#">Log in</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
