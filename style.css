@@ -29,8 +29,8 @@ img.sidebar-img {
     text-align: center;
     width: 100%;
     height: 180px;
-    background-color: rgba(10,10,0,0.5);
-    margin-top: 20vh;
+    background-color: rgba(10,10,0,0.6);
+    margin-top: calc(50vh - 90px);
 }
 
 img.logo {
