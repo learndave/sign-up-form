@@ -10,14 +10,12 @@
     <!-- GOOGLE FONTS ROBOTO SLAB -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="sidebar">
         <div class="logo">
-            <!-- <div class="logo"> -->
-               <!-- <img class="logo" src="cabs-white-logo.png" alt="Cabs' Pitikraphy Logo"> -->
-            <!-- </div> -->
+            <img class="logo" src="cabs-white-logo.png" alt="Cabs' Pitikraphy Logo">
         </div>
         <div class="sidebar-footer">
             Photo by <a href="https://unsplash.com/@opticonor">Conor Luddy</a> on <a href="https://unsplash.com/">Unsplash</a>.
@@ -25,11 +23,12 @@
     </div>
     <div class="body">
         <div class="intro">
-            Wow! You are here in my make-believe <i>Photography</i> website. 
-            <br><br>
-            To start, say cheese!
+            Wow! You are here in my make-believe photography website. 
+            <div class="say-cheese">
+                To start, say cheese!
+            </div>            
         </div>
-        <form action="/index.html" method="post">
+        <form class="sign-up-form" action="/index.html" method="post">
             <div class="form-main">
                 <div class="form-title">
                     Let's Shoooooot!
@@ -57,11 +56,11 @@
                     </div>
                     <div class="form-item password-confirm">
                         <label for="password-confirm">CONFIRM PASSWORD</label>
-                    <input type="text" id="password-confirm">
+                    <input type="password" id="password-confirm">
                     </div>
                 </div>
             </div>        
-            <button class="button" type="submit">Create Account</button>
+            <button class="submit-button" type="submit">Create Account</button>
         </form>
         <div class="log-in-option">
             Already have an account? <a class="log-in" href="#">Log in</a>
