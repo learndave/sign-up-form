@@ -1,8 +1,24 @@
+/* MOBILE-FIRST DEVELOPMENT */
+
 * {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.sidebar {
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    background-color: grey;
+}
+
+/* body {
     display: flex;
     justify-content: center;
     margin: 0;
@@ -91,14 +107,19 @@ a {
 label {
     display: block;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: px;
     color: #323232;
     margin-bottom: 3px;
+    font-weight: 500;
 }
 
 input {
     -webkit-appearance: none;
     border-radius: 5px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 300;
+    border: solid 1px #909090;
 }
 
 .form-proper {
@@ -108,7 +129,7 @@ input {
 
 .form-item {
     margin-right: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .button {
@@ -128,4 +149,4 @@ input {
     color: #2A2A2A;
     font-weight: 700;
     text-decoration: none;
-}
+} */
